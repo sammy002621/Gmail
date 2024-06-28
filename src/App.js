@@ -6,6 +6,9 @@ import EmailList from './EmailList';
 import Header from './header';
 import Sidebar from './sidebar';
 import './App.css'
+import Starred from './Starred';
+import Snooze from './Snooze';
+import Draft from './Draft';
 
 function App() {
   return (
@@ -17,6 +20,9 @@ function App() {
          <Routes>
           <Route path='/' element={<Fragment><Mail/></Fragment>}/>
           <Route path='/mail' element={<Fragment><EmailList/></Fragment>}/>
+          <Route path='/starred' element={<Fragment><Starred/></Fragment>}/>
+          <Route path='/snooze' element={<Fragment><Snooze/></Fragment>}/>
+          <Route path='/draft' element={<Fragment><Draft/></Fragment>}/>
          </Routes>
         </div>
       </div>

@@ -11,7 +11,7 @@ function Header() {
     <div className='header'>
    
       <div className="header_left">
-<IconButton><MenuIcon/></IconButton>
+<IconButton onClick={()=>alert("hello")}><MenuIcon/></IconButton>
 <img src="../download.png" alt="This image is currently unavailable" />
       </div>
       

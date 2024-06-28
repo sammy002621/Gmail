@@ -3,7 +3,7 @@ import './mail.css'
 function Mail() {
   return (
     <div className='mail'>
-      
+      this is the email list
     </div>
   )
 }

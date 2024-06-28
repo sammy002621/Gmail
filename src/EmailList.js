@@ -20,6 +20,10 @@ function EmailList() {
 
 
         </div>
+
+        <div>
+          this is the email list
+        </div>
       </div>
     </div>
   )
